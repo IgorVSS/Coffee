@@ -950,6 +950,15 @@ button.btn.btn-primary {
 	font-weight: 900;
 }
 
+.list-group-item:nth-child(n+5) {
+	display: none;
+};
+
+.panel.panel-default:nth-child(2) {
+	display: none;
+  }
+  
+
 @media (max-width: 768px) {
 	.align-center {
 		display: block;
